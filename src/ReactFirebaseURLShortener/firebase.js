@@ -3,13 +3,13 @@ import 'firebase/database'
 import 'firebase/firestore'
 
 const app = firebase.initializeApp({
-  apiKey: "AIzaSyC9R36nmNBEux_qCR3v2fjOWKhEXe7zkhk",
-  authDomain: "ulr-shortener-e0b28.firebaseapp.com",
-  projectId: "ulr-shortener-e0b28",
-  storageBucket: "ulr-shortener-e0b28.appspot.com",
-  messagingSenderId: "446250266446",
-  appId: "1:446250266446:web:cf9ef8623cfa749d6bb81f",
-  measurementId: "G-SK9847WQV2"
+  apiKey: "AIzaSyAhv4ysmzxKfs3D0lBDfR3SGzq2pzgQpSE",
+  authDomain: "react-firebase-url-shorten.firebaseapp.com",
+  projectId: "react-firebase-url-shorten",
+  storageBucket: "react-firebase-url-shorten.appspot.com",
+  messagingSenderId: "917979020070",
+  appId: "1:917979020070:web:17b2b1eeea4f5741575fe7",
+  measurementId: "G-R802N8ZF6S"
 })
 const firestore = app.firestore()
 export const database = {

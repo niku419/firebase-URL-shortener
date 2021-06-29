@@ -9,7 +9,7 @@ export default function RedirectPage() {
   useEffect(() => {
     if(id){
       database.urlDetails
-      .where("shortUrl", "==", `https://react-firebase-url-shorten/${id}`)
+      .where("shortUrl", "==",id)
       .onSnapshot(res => {
         res.docs.map(value => {
           return window.location.href = value.data().longUrl

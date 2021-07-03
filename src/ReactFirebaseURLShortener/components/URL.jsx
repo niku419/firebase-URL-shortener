@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
-import {Container, Form, Button, Jumbotron, Alert, Spinner} from 'react-bootstrap'
+import {Container, Form, Button, Jumbotron, Alert, Spinner, Nav, Navbar} from 'react-bootstrap'
+// import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faInstagram, faGithub, faFacebookF, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClipboard, faClipboardCheck } from '@fortawesome/free-solid-svg-icons'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
@@ -85,6 +87,24 @@ export default function URL() {
         </CopyToClipboard>
         </Alert>
       </Container>}
+      <Container>
+			<Navbar bg="transparent" fixed="bottom" variant="light">
+				<Navbar.Brand >
+					<strong>Niku419</strong>
+				</Navbar.Brand>
+				<Nav className="mr-auto">
+					<Nav.Link href="https://github.com/niku419"><FontAwesomeIcon  icon={faGithub} /></Nav.Link>
+					<Nav.Link href="https://linkedin.com/niku_419"><FontAwesomeIcon  icon={faLinkedinIn} /></Nav.Link>
+					<Nav.Link href="https://instagram.com/_niku_419"><FontAwesomeIcon  icon={faInstagram} /></Nav.Link>
+					<Nav.Link href="#"><FontAwesomeIcon icon={faFacebookF} /></Nav.Link>
+				</Nav>
+				<Form inline>
+					{/* <Nav className="mr-auto"> 
+						<Nav.Link>made for Hiku<FontAwesomeIcon color="#8d0101" icon={faHeart} /></Nav.Link>
+					</Nav> */}
+				</Form>
+		</Navbar>
+		</Container>
    </Container> 
   )
 } 

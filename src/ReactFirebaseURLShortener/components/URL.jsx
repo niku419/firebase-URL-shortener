@@ -16,7 +16,7 @@ export default function URL() {
   async function handleClick(e){
     e.preventDefault()
     setLoading(true)
-    var shortUrl = shortId.generate()
+    var shortUrl = `https://react-firebase-url-shorten.web.app/${shortId.generate()}`
     await database.urlDetails.add({
       longUrl: url,
       shortUrl: shortUrl

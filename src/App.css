@@ -1,41 +1,45 @@
- /* .App {
-  text-align: center;
-} */
 html,
 body,
 #root {
   height: 100%;
   width: 100%;
+  background-color: #eae7dc;
 }
-
+.heading{
+  color: #e85a4f;
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
+.url{
+  letter-spacing: 1mm;
+  color: #e98074;
+}
+.description{
+  color: #8e8d8a;
+}
+.btn-primary:active, .btn-primary:visited {
+  background-color: #e98074 !important;
+}
+.btn-primary:hover{
+  background-color: #e85a4f !important;
+  border-color: #e85a4f !important;
+}
+.btn-primary{
+  background-color: #e85a4f !important;
+  border-color: #e98074 !important;
+}
+.bord{
+  border: 1px solid #e85a4f !important;
+  border-radius: 15px 50px 30px !important;
+}
+.alert-warning {
+  background-color: #e85a4f !important;
+  border-color: #e85a4f !important;
+}
+.alert-link{
+  color: whitesmoke !important;
+}
 body {
   font-family: system-ui;
   margin: 0;
 }
-
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-}
-
-.flex {
-  display: flex;
-  align-items: center;
-}
-
-.flex.fill {
-  height: 100%;
-}
-
-.flex.center {
-  justify-content: center;
-}
-
-/* h1.heading-text {
-  font-family: "Arial Black", sans-serif;
-  letter-spacing: -1px;
-  background-color: black;
-  color: white;
-  text-align: center;
- } */

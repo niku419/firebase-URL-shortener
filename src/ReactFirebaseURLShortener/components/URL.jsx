@@ -36,7 +36,7 @@ export default function URL() {
     )
   }
   return (
-    <Container className="pt-5 main">
+    <Container className="center-head main">
       <Container>
         <div className="pb-5 bord">
           <h1 className="heading"><span className="url">URL</span> Shortener</h1>

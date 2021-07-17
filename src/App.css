@@ -10,6 +10,10 @@ body,
   text-align: center;
   letter-spacing: 0.5rem;
 }
+.center-head{
+  display: grid;
+  place-items: center;
+}
 .url{
   letter-spacing: 1mm;
   color: #e98074;

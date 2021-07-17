@@ -11,9 +11,10 @@ body,
   letter-spacing: 0.5rem;
 }
 .center-head{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%,-50%) !important;
 }
 .url{
   letter-spacing: 1mm;

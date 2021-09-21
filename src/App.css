@@ -10,6 +10,12 @@ body,
   text-align: center;
   letter-spacing: 0.5rem;
 }
+.center-head{
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%,-50%) !important;
+}
 .url{
   letter-spacing: 1mm;
   color: #e98074;

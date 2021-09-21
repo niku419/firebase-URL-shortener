@@ -36,13 +36,13 @@ export default function URL() {
     )
   }
   return (
-    <Container className="pt-5 main">
-      <Container>
+    <Container className="main">
+      <Container className="center-head">
         <div className="pb-5 bord">
           <h1 className="heading"><span className="url">URL</span> Shortener</h1>
           <div className="mt-4 text-center">
             <em className="description">
-              This URL Shortener is a tool that creates a short, unique URL that will redirect to the specific website of your choosing using Firebase & React
+              This URL Shortener is a tool that creates a short, unique URL that will redirect to the specific website of your choice using Firebase & React
             </em>
           </div>
         </div>
